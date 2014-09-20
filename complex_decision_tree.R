@@ -14,4 +14,4 @@ Prediction <- predict(fit, test, type = "class")
 
 # Create submission dataframe and output to file
 submit <- data.frame(PassengerId = test$PassengerId, Survived = Prediction)
-write.csv(submit, file = "output/complex_decision_tree.csv", row.names = FALSE)
+write.csv(submit, file = "Output/complex_decision_tree.csv", row.names = FALSE)
