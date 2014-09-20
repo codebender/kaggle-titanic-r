@@ -9,7 +9,7 @@ test <- read.csv("Data/test.csv", stringsAsFactors=FALSE)
 
 fit <- rpart(Survived ~ Pclass + Sex + Age + SibSp + Parch + Fare + Embarked,
              data=train, method="class",
-             control=rpart.control(minsplit=2, cp=0))
+             control=rpart.control(minsplit=2, cp=0.005))
 Prediction <- predict(fit, test, type = "class")
 
 # Create submission dataframe and output to file
