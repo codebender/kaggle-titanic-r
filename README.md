@@ -1,1 +1,1 @@
-*Titanic Competition on Kaggle.com
+# Titanic Competition on Kaggle.com
