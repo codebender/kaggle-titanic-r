@@ -3,6 +3,7 @@
 
 ## Getting Started
 1. Install R with brew
+
   ```shell
   brew tap homebrew/science
   brew install r
@@ -12,6 +13,7 @@
 1. Install Dependencies
   1. Open RStudio
   1. Install packages by running commands
+
     ```R
     install.packages('rattle')
     install.packages('rpart.plot')
